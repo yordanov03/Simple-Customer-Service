@@ -1,0 +1,14 @@
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Services\bin\Debug\netcoreapp3.1\MyCustomerService.Services.deps.json
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Services\bin\Debug\netcoreapp3.1\MyCustomerService.Services.dll
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Services\bin\Debug\netcoreapp3.1\MyCustomerService.Services.pdb
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Services\bin\Debug\netcoreapp3.1\MyCustomerService.Data.dll
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Services\bin\Debug\netcoreapp3.1\MyCustomerService.Models.dll
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Services\bin\Debug\netcoreapp3.1\MyCustomerService.Data.pdb
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Services\bin\Debug\netcoreapp3.1\MyCustomerService.Models.pdb
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Services\obj\Debug\netcoreapp3.1\MyCustomerService.Services.csprojAssemblyReference.cache
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Services\obj\Debug\netcoreapp3.1\MyCustomerService.Services.AssemblyInfoInputs.cache
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Services\obj\Debug\netcoreapp3.1\MyCustomerService.Services.AssemblyInfo.cs
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Services\obj\Debug\netcoreapp3.1\MyCustomerService.Services.csproj.CopyComplete
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Services\obj\Debug\netcoreapp3.1\MyCustomerService.Services.dll
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Services\obj\Debug\netcoreapp3.1\MyCustomerService.Services.pdb
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Services\obj\Debug\netcoreapp3.1\MyCustomerService.Services.csproj.CoreCompileInputs.cache

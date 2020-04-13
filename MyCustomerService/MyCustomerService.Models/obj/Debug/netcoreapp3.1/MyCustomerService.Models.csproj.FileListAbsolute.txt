@@ -1,0 +1,9 @@
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Models\bin\Debug\netcoreapp3.1\MyCustomerService.Models.deps.json
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Models\bin\Debug\netcoreapp3.1\MyCustomerService.Models.dll
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Models\bin\Debug\netcoreapp3.1\MyCustomerService.Models.pdb
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Models\obj\Debug\netcoreapp3.1\MyCustomerService.Models.csprojAssemblyReference.cache
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Models\obj\Debug\netcoreapp3.1\MyCustomerService.Models.AssemblyInfoInputs.cache
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Models\obj\Debug\netcoreapp3.1\MyCustomerService.Models.AssemblyInfo.cs
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Models\obj\Debug\netcoreapp3.1\MyCustomerService.Models.dll
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Models\obj\Debug\netcoreapp3.1\MyCustomerService.Models.pdb
+C:\Users\Svetoslav.Yordanov\source\repos\MyCustomerService\MyCustomerService.Models\obj\Debug\netcoreapp3.1\MyCustomerService.Models.csproj.CoreCompileInputs.cache
