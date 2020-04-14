@@ -1,0 +1,6 @@
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\bin\Debug\netcoreapp3.1\SimpleCustomerService.Data.deps.json
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\bin\Debug\netcoreapp3.1\SimpleCustomerService.Data.dll
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\obj\Debug\netcoreapp3.1\SimpleCustomerService.Data.AssemblyInfoInputs.cache
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\obj\Debug\netcoreapp3.1\SimpleCustomerService.Data.AssemblyInfo.cs
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\obj\Debug\netcoreapp3.1\SimpleCustomerService.Data.csprojAssemblyReference.cache
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\bin\Debug\netcoreapp3.1\SimpleCustomerService.Models.dll
