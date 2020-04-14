@@ -37,7 +37,7 @@ namespace SimpleCustomerService.Web.Controllers
 
         }
 
-        [HttpGet]
+        [HttpGet("{id}", Name = "GetCustomerRoute")]
         public async Task<IActionResult> Customers(int id)
         {
             try
@@ -75,7 +75,7 @@ namespace SimpleCustomerService.Web.Controllers
             }
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCustomer(int id, [FromBody] Customer customer)
         {
             if (ModelState.IsValid)
@@ -97,7 +97,7 @@ namespace SimpleCustomerService.Web.Controllers
             }
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCustomer(int id)
         {
             try
