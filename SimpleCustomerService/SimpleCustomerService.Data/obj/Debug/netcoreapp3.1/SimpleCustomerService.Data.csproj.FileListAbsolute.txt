@@ -4,3 +4,9 @@ C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerSer
 C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\obj\Debug\netcoreapp3.1\SimpleCustomerService.Data.AssemblyInfo.cs
 C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\obj\Debug\netcoreapp3.1\SimpleCustomerService.Data.csprojAssemblyReference.cache
 C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\bin\Debug\netcoreapp3.1\SimpleCustomerService.Models.dll
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\bin\Debug\netcoreapp3.1\SimpleCustomerService.Data.pdb
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\bin\Debug\netcoreapp3.1\SimpleCustomerService.Models.pdb
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\obj\Debug\netcoreapp3.1\SimpleCustomerService.Data.csproj.CoreCompileInputs.cache
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\obj\Debug\netcoreapp3.1\SimpleCustomerService.Data.csproj.CopyComplete
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\obj\Debug\netcoreapp3.1\SimpleCustomerService.Data.dll
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Data\obj\Debug\netcoreapp3.1\SimpleCustomerService.Data.pdb
