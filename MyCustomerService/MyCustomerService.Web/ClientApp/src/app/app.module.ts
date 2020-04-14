@@ -29,7 +29,7 @@ import { CustomersGridComponent } from './customers/grid/customers-grid/customer
       { path: 'fetch-data', component: FetchDataComponent },
     ])
   ],
-  providers: [],
+  providers: [FetchDataComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
