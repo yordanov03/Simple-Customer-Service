@@ -21,6 +21,7 @@ import { CustomersComponent } from './customers/customers/customers.component';
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot([
+      { path: 'customers', component: CustomersComponent, pathMatch: 'full' },
       { path: '', component: HomeComponent, pathMatch: 'full' },
 
     ])
