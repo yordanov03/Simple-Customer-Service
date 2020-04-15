@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { CustomersComponent } from './customers/customers/customers.component';
+import { FilterTextboxComponent } from './shared/filter-textbox.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
     HomeComponent,
-    CustomersComponent
+    CustomersComponent,
+    FilterTextboxComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -22,11 +24,11 @@ import { CustomersComponent } from './customers/customers/customers.component';
     FormsModule,
     RouterModule.forRoot([
       { path: 'customers', component: CustomersComponent, pathMatch: 'full' },
-      { path: '', component: HomeComponent, pathMatch: 'full' },
+      { path: '', pathMatch: 'full' , redirectTo: '/customers'},
 
     ])
   ],
-  providers: [],
+  providers: [FilterTextboxComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
