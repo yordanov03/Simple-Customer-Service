@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SimpleCustomerService.Models;
 using SimpleCustomerService.Services.interfaces;
+using SimpleCustomerService.Web.Infrastructure;
 
 namespace SimpleCustomerService.Web.Controllers
 {
@@ -22,6 +23,8 @@ namespace SimpleCustomerService.Web.Controllers
         }
 
         [HttpGet]
+        [NoCache]
+        [ProducesResponseType(typeof(List<Customer>), 200)]
         public async Task<IActionResult> Customers()
         {
             try

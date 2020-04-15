@@ -31,6 +31,7 @@ namespace SimpleCustomerService.Web
                 options.UseSqlite(Configuration.GetConnectionString("CustomersSqliteConnectionString"));
             });
 
+
             services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<IStatesService, StatesService>();
             services.AddTransient<CustomerDbSeeder>();

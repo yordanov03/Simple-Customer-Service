@@ -9,6 +9,7 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { CustomersComponent } from './customers/customers/customers.component';
 import { FilterTextboxComponent } from './shared/filter-textbox.component';
+import { CustomersGridComponent } from './customers/customers-grid/customers-grid/customers-grid.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FilterTextboxComponent } from './shared/filter-textbox.component';
     NavMenuComponent,
     HomeComponent,
     CustomersComponent,
-    FilterTextboxComponent
+    FilterTextboxComponent,
+    CustomersGridComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -28,7 +30,7 @@ import { FilterTextboxComponent } from './shared/filter-textbox.component';
 
     ])
   ],
-  providers: [FilterTextboxComponent],
+  providers: [FilterTextboxComponent, CustomersComponent, CustomersGridComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
