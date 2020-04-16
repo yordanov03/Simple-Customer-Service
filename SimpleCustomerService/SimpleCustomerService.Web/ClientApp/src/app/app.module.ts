@@ -7,9 +7,9 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
-import { CustomersComponent } from './customers/customers/customers.component';
+import { CustomersComponent } from './customers/customers.component';
 import { FilterTextboxComponent } from './shared/filter-textbox.component';
-import { CustomersGridComponent } from './customers/customers-grid/customers-grid/customers-grid.component';
+import { CustomersGridComponent } from './customers/customers-grid/customers-grid.component';
 
 @NgModule({
   declarations: [
