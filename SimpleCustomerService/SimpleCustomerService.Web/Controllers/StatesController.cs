@@ -10,14 +10,15 @@ using SimpleCustomerService.Services.interfaces;
 
 namespace SimpleCustomerService.Web.Controllers
 {
+    [Route("api/states")]
     public class StatesController: Controller
     {
         private readonly IStatesService stateService;
         private ILogger logger;
 
-        public StatesController(IStatesService stateService, SimpleCustomerServiceDbContext context, ILogger logger)
+        public StatesController(IStatesService stateService, SimpleCustomerServiceDbContext context, ILoggerFactory loggerFactory)
         {
-            this.logger = logger;
+            this.logger = loggerFactory.CreateLogger(nameof(StatesController));
             this.stateService = stateService;
         }
 
