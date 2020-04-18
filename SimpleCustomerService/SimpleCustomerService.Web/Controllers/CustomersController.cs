@@ -64,7 +64,7 @@ namespace SimpleCustomerService.Web.Controllers
                 try
                 {
                     var newCustomer = await _customerService.CreateCustomer(customer);
-                    return Ok(newCustomer);
+                    return CreatedAtRoute("GetCustomerRoute", new {id = newCustomer.Id});
                 }
                 catch (Exception e)
                 {

@@ -25,20 +25,38 @@ namespace SimpleCustomerService.Services
             return customer;
         }
 
-        public async Task<Customer> UpdateCustomer(Customer customer)
+        public async Task<bool> UpdateCustomer(Customer customer)
         {
-            Customer searchedCustomer = await GetCustomer(customer.Id);
-            searchedCustomer = customer;
-            _context.Customers.Update(searchedCustomer);
-            await _context.SaveChangesAsync();
-            return searchedCustomer;
+            _context.Customers.Attach(customer);
+            _context.Entry(customer).State = EntityState.Modified;
+            
+            try
+            {
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+            
         }
 
         public async Task<bool> DeleteCustomer(int id)
         {
-            Customer customer = await GetCustomer(id);
-            _context.Customers.Remove(customer);
-            return true;
+            var customer = await _context.Customers
+                .Include(c => c.Orders)
+                .SingleOrDefaultAsync(c => c.Id == id);
+                _context.Remove(customer);
+
+            try
+            {
+                return (await _context.SaveChangesAsync() > 0 ? true : false);
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
         }
 
         public async Task<List<Customer>> GetCustomers()
