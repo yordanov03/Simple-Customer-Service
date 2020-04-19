@@ -73,7 +73,7 @@ namespace SimpleCustomerService.Services
         public async Task<PagingResult<Customer>> GetCustomersPaged(int take, int skip)
         {
             var customers = await _context.Customers
-                .Include(c => c.Orders).Skip(skip).Take(take).ToListAsync();
+                .Include(c => c.Orders).Include(c=>c.Orders).Skip(skip).Take(take).ToListAsync();
             var totalRecords = customers.Count;
 
             return new PagingResult<Customer>(customers, totalRecords);

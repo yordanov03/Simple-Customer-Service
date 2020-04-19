@@ -1,0 +1,14 @@
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Services\bin\Debug\netcoreapp3.1\SimpleCustomerService.Services.deps.json
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Services\bin\Debug\netcoreapp3.1\SimpleCustomerService.Services.dll
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Services\bin\Debug\netcoreapp3.1\SimpleCustomerService.Services.pdb
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Services\bin\Debug\netcoreapp3.1\SimpleCustomerService.Data.dll
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Services\bin\Debug\netcoreapp3.1\SimpleCustomerService.Models.dll
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Services\bin\Debug\netcoreapp3.1\SimpleCustomerService.Data.pdb
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Services\bin\Debug\netcoreapp3.1\SimpleCustomerService.Models.pdb
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Services\obj\Debug\netcoreapp3.1\SimpleCustomerService.Services.csprojAssemblyReference.cache
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Services\obj\Debug\netcoreapp3.1\SimpleCustomerService.Services.csproj.CoreCompileInputs.cache
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Services\obj\Debug\netcoreapp3.1\SimpleCustomerService.Services.AssemblyInfoInputs.cache
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Services\obj\Debug\netcoreapp3.1\SimpleCustomerService.Services.AssemblyInfo.cs
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Services\obj\Debug\netcoreapp3.1\SimpleCustomerService.Services.csproj.CopyComplete
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Services\obj\Debug\netcoreapp3.1\SimpleCustomerService.Services.dll
+C:\Users\Svetoslav.Yordanov\source\repos\SimpleCustomerService\SimpleCustomerService.Services\obj\Debug\netcoreapp3.1\SimpleCustomerService.Services.pdb
