@@ -69,5 +69,14 @@ namespace SimpleCustomerService.Services
             Customer customer = await _context.Customers.Include(c => c.State).SingleOrDefaultAsync(c => c.Id == id);
             return customer;
         }
+
+        public async Task<PagingResult<Customer>> GetCustomersPaged(int take, int skip)
+        {
+            var customers = await _context.Customers
+                .Include(c => c.Orders).Skip(skip).Take(take).ToListAsync();
+            var totalRecords = customers.Count;
+
+            return new PagingResult<Customer>(customers, totalRecords);
+        }
     }
 }

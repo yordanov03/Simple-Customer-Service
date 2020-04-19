@@ -13,5 +13,6 @@ namespace SimpleCustomerService.Services.interfaces
         Task<bool> DeleteCustomer(int id);
         Task<List<Customer>> GetCustomers();
         Task<Customer> GetCustomer(int id);
+        Task<PagingResult<Customer>> GetCustomersPaged(int take, int skip);
     }
 }

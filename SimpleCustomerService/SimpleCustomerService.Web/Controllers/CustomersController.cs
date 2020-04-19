@@ -120,5 +120,22 @@ namespace SimpleCustomerService.Web.Controllers
                 return BadRequest(e.Message);
             }
         }
+
+        [HttpGet]
+        [Route("page/{skip}/{take}")]
+        public async Task<IActionResult> GetCustomersPaged(int take, int skip)
+        {
+            try
+            {
+                var result = await _customerService.GetCustomersPaged(take, skip);
+                Response.Headers.Add("X-InlineCount", result.TotalPages.ToString());
+                return Ok(result.Customers);
+
+            }
+            catch (Exception e)
+            {
+                return BadRequest();
+            }
+        }
     }
 }
